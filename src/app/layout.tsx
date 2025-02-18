@@ -20,6 +20,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<head>
+				<meta name="google-adsense-account" content="ca-pub-6105108199502947"></meta>
 				{process.env.GOOGLE_ADS_PUBLISHER_ID && (
 					<AdSense publisherId={process.env.GOOGLE_ADS_PUBLISHER_ID} />
 				)}
