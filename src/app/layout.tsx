@@ -16,6 +16,7 @@ export default function RootLayout({
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
+	console.log('GOOGLE_ADS_PUBLISHER_ID', process.env.GOOGLE_ADS_PUBLISHER_ID);
 	return (
 		<html lang="en">
 			<head>
